@@ -35,21 +35,6 @@ public class RPN {
 
                 output.append(c);
                 output.append(' ');
-                //i++;
-
-                /*while ( i<input.length()) {
-                    c = input.charAt(i);
-                    i++;
-
-                    if(!Character.isDigit(c)) {
-                        break;
-                    }
-                    output.append(c);
-                    output.append(' ');
-                }
-
-                i--;*/
-
             } else {
 
                 if (operator(c)) {
